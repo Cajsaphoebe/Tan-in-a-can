@@ -5,19 +5,19 @@
 /**************************************************/
 
 #hero {
-  background-color: azure;
+    background-color: azure;
 }
 
 #voresis {
-  background-color: lightyellow;
+    background-color: lightyellow;
 }
 
 #tilbud {
-  background-color: burlywood;
+    background-color: burlywood;
 }
 
 #omos {
-  background-color: lavender;
+    background-color: lavender;
 }
 
 /**************************************************/
@@ -41,7 +41,7 @@
 /**************************************************/
 @media (min-width: 992px) {
 
-  /* END "lg-" 992px and up */
+    /* END "lg-" 992px and up */
 }
 
 /**************************************************/
@@ -49,5 +49,5 @@
 /**************************************************/
 @media (min-width: 1200px) {
 
-  /* END "xl-" 1200px and up */
+    /* END "xl-" 1200px and up */
 }
