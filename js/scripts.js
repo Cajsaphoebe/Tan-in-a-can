@@ -1,6 +1,15 @@
 $(function () { // DOM ready for jQuery??
     //write your code below
 
+    $(window).on('load', function () {
+        console.log("pre");
+        $('.preloader').fadeOut('slow');
+    });
+
+    (function ($) {
+
+    })(jQuery);
+
     //The two go to debugging tools: alert & console.log - uncomment them using // or /* .... */
     //alert("hey");
     console.log('hi there from "js/scripts.js" - good to see you');

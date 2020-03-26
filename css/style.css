@@ -1,24 +1,123 @@
 /* style.css - til dine custom styles */
 
+.bg-primary-2 {
+    background-color: #3779B3;
+}
+
+.bg-secondary-2 {
+    background: #cbdbe8;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
+.text-italic {
+    font-style: italic;
+}
+
+.text-small {
+    font-size: 0.8em;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+#btn-top {
+    position: fixed;
+    z-index: 999;
+    bottom: 1em;
+    top: auto;
+    left: auto;
+    right: 1em;
+    margin-left: -1.9rem;
+    opacity: .66;
+    display: none;
+}
+
+.instagram_feed {
+    overflow: hidden;
+}
+
+#jsonHere {
+    max-height: 60vh;
+    overflow: auto;
+}
+
+
+
+
+
+img {
+    width: 100%;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.preloader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-image: url('img/Rolling-1s-200px.gif');
+    background-repeat: no-repeat;
+    background-color: #FFF;
+    background-position: center;
+}
+
+.parallax-window {
+    height: 500px;
+    background: transparent;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+
+img {
+    /*    padding: 10px;*/
+    align-self: center;
+}
+
+.jumbotron {
+    position: relative;
+    /* position: fixed;
+  overflow: hidden; */
+    background-color: black;
+}
+
+.jumbotron video {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    height: 95vh;
+    /*height: 100%;
+  /*  object-fit is not supported on IE  */
+    object-fit: cover;
+}
+
+.jumbotron .container {
+    z-index: 2;
+    position: relative;
+}
+
 /**************************************************/
 /* WRITE MOBILE STYLES AND GENERAL STYLES (fonts, colors etc.) HERE BEFORE THE FIRST BREAKPOINT */
 /**************************************************/
 
-#hero {
-    background-color: azure;
-}
 
-#voresis {
-    background-color: lightyellow;
-}
 
-#tilbud {
-    background-color: burlywood;
-}
-
-#omos {
-    background-color: lavender;
-}
 
 /**************************************************/
 /* Small devices (landscape phones, 576px and up) */
