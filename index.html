@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="bs/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/rwd.css">
+
+    <link rel="stylesheet" href="animate.min.css">
+
 </head>
 
 <body>
@@ -18,20 +21,41 @@
 
     <div class="preloader"></div>
 
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container-fluid">
-            <video autoplay muted loop poster="https://dummyimage.com/900x400/000/fff">
-                <source src="img/Sequence%2002.mov" type="video/mp4">
-            </video>
-        </div>
+    <header class="text-center">
+        <nav class="navbar bg-custom-2 navbar-light navbar-expand-sm mx-auto">
+            <a class="navbar-brand" href="#">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-list-2" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-sm-center" id="navbar-list-2">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Koncept <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#ingredienser">Ingredienser</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#my-instagram-feed">Sociale medier</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-        <!-- /.container -->
+
+    <div class="embed-responsive embed-responsive-16by9">
+        <video autoplay muted loop poster="https://dummyimage.com/900x400/000/fff">
+            <source src="img/Sequence%2002.mov" type="video/mp4">
+        </video>
     </div>
-    <!-- /.jumbotron -->
 
 
-    <section class="parallax-window jumbotron jumbotron-fluid container-fluid" data-parallax="scroll" data-image-src="img/1.jpeg" data-speed="0.2">
-    </section>
+    <!--
+<section class="parallax-window jumbotron jumbotron-fluid container-fluid" data-parallax="scroll" data-image-src="img/1.jpeg" data-speed="0.2">
+</section>
+-->
 
 
     <!-- END .parallax-window -->
@@ -39,13 +63,19 @@
         <section id="sundhed" class="row">
             <div class="sundhed_indhold">
                 <div class="d-sm-flex flex-row flex-fill mt-5">
-                    <div class="col-12 col-lg-6 col-md-6 text-sm-right flex-column align-self-center pr-5 pl-5">
-                        <h2>Det skal være sundt!</h2>
-                        <h2 class="display-9 font-weight-500 mb-4">Vores ingredienser</h2>
-                        <p>kjfkslksdflkfkdskjdsfjdsfljkdsflkjdsfkljdfskdfskfdskjfsdjksdfkj</p>
+                    <div class="col-12 col-lg-6 col-md-6 text-sm-left flex-column align-self-center pr-5 pl-5">
+                        <h2 class="display-3 font-weight-600">Taste the sunshine</h2>
+
+                        <p>Tan in Can er til dig der ønsker at opnå en enestående kombination af en sommerfølelse og et eksotisk udseende.
+
+                            Tan in Can indeholder en høj koncentration af Beta Caroten, som giver huden den bedste naturlige farve. Du vil opnå en glød, som hvis du lige var kommet hjem fra en eksklusiv ferie.
+                            Udover Beta Caroten, indeholder Tan in Can også banan som er med til at øge serotonin produktionen i kroppen. Serotonin er med til frigøre et glædes hormon i hjernen, så du vil føle dig glad og oplagt til hverdagen.
+
+
+                            Vi ønsker at hjælpe dig med at blive den bedste udgave af dig selv. Så du opnår en selvtillid til at gøre de ting, du altid kun har drømt om. Vi ønsker at hjælpe dig ud af vinterdepressionen og give dig et ekstraordinært overskud til at klare dig i hverdagen.</p>
                     </div>
                     <div class="col-12 col-lg-6 col-md-6 mb-4">
-                        <img class="img-fluid" src="img/0.png">
+                        <img src="img/blomst.png" class="animated infinite pulse delay-2s">
                     </div>
                 </div>
             </div>
@@ -55,19 +85,22 @@
 
 
     <section class="parallax-window jumbotron jumbotron-fluid container-fluid" data-parallax="scroll" data-image-src="img/2.jpeg" data-speed="0.2">
-
     </section>
 
 
 
     <main class="container">
-        <section id="hero" class="row p-0 m-0">
+        <section id="ingredienser" class="row p-0 m-0">
             <div class="col-xl-12 p-0 m-0"><img class="img-fluid" src="img/0.png"></div>
         </section>
     </main>
 
 
-    <section class="parallax-window jumbotron jumbotron-fluid container-fluid" data-parallax="scroll" data-image-src="img/0.jpeg" data-speed="0.2">
+    <section class="parallax-window jumbotron jumbotron-fluid container" data-parallax="scroll" data-image-src="img/0.jpeg" data-speed="0.2">
+
+        <section id="para3" class="row p-0 m-0">
+            <div class="col-xl-12 p-0 m-0"></div>
+        </section>
     </section>
 
 
@@ -76,7 +109,7 @@
 
 
 
-    <script src="insta.js"></script>
+
 
     <!--  <script src="jquery.instagramFeed.min.js"></script>-->
 
@@ -94,8 +127,7 @@
 
 
 
-    <!--    <script src="/js/jquery.instagramFeed-master/jquery.instagramFeed.js"></script>-->
-
+    <script src="/js/jquery.instagramFeed-master/jquery.instagramFeed.js"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha384-vk5WoKIaW/vJyUAd9n/wmopsmNhiy+L2Z+SBxGYnUkunIxVxAv/UtMOhba/xskxh" crossorigin="anonymous"></script>
 

@@ -1,60 +1,7 @@
 /* style.css - til dine custom styles */
-
-.bg-primary-2 {
-    background-color: #3779B3;
-}
-
-.bg-secondary-2 {
-    background: #cbdbe8;
-}
-
-.text-underline {
-    text-decoration: underline;
-}
-
-.text-bold {
-    font-weight: 700;
-}
-
-.text-italic {
-    font-style: italic;
-}
-
-.text-small {
-    font-size: 0.8em;
-}
-
-.flex-grow-1 {
-    flex-grow: 1;
-}
-
-#btn-top {
-    position: fixed;
-    z-index: 999;
-    bottom: 1em;
-    top: auto;
-    left: auto;
-    right: 1em;
-    margin-left: -1.9rem;
-    opacity: .66;
-    display: none;
-}
-
-.instagram_feed {
-    overflow: hidden;
-}
-
-#jsonHere {
-    max-height: 60vh;
-    overflow: auto;
-}
-
-
-
-
-
 img {
     width: 100%;
+    align-self: center;
 }
 
 .container {
@@ -81,12 +28,8 @@ img {
     background: transparent;
     background-attachment: fixed;
     background-position: center center;
-}
-
-
-img {
-    /*    padding: 10px;*/
-    align-self: center;
+    margin: 0;
+    padding: 0;
 }
 
 .jumbotron {
@@ -110,6 +53,39 @@ img {
 .jumbotron .container {
     z-index: 2;
     position: relative;
+}
+
+#sundhed {
+    background-color: #ffffeb;
+}
+
+#ingredienser {
+    background-color: #ffffeb;
+}
+
+a {
+    transition: background-color 1s ease;
+}
+
+/*
+a:hover {
+    border-bottom: 2px solid #000000;
+    border-bottom-width: thin;
+}
+*/
+
+button {
+    /*    font-size: 1rem;*/
+    /*Den indre afstand i boksen*/
+    padding: 10px;
+    /*Fjerner kanten på knapperne*/
+    margin: 0 0.2rem;
+    cursor: pointer;
+    /*    border: 0;*/
+    text-transform: uppercase;
+    /*    font-weight: 400;*/
+    color: #000000;
+    background-color: white;
 }
 
 /**************************************************/
