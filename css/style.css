@@ -73,6 +73,9 @@ a:hover {
     border-bottom-width: thin;
 }
 */
+.navbar {
+    background-color: #60D5E7;
+}
 
 button {
     /*    font-size: 1rem;*/
