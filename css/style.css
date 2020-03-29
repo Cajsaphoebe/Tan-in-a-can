@@ -71,26 +71,15 @@ a {
     transition: background-color 1s ease;
 }
 
-/*
-a:hover {
-    border-bottom: 2px solid #000000;
-    border-bottom-width: thin;
-}
-*/
 .navbar {
     background-color: #60D5E7;
 }
 
 button {
-    /*    font-size: 1rem;*/
-    /*Den indre afstand i boksen*/
     padding: 10px;
-    /*Fjerner kanten på knapperne*/
     margin: 0 0.2rem;
     cursor: pointer;
-    /*    border: 0;*/
     text-transform: uppercase;
-    /*    font-weight: 400;*/
     color: #000000;
     background-color: white;
 }
