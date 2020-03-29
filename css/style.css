@@ -63,6 +63,10 @@ img {
     background-color: #ffffeb;
 }
 
+#some {
+    background-color: #ffffeb;
+}
+
 a {
     transition: background-color 1s ease;
 }
@@ -90,6 +94,19 @@ button {
     color: #000000;
     background-color: white;
 }
+
+h2 {
+    font-family: 'Anton', sans-serif;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+}
+
+nav-link {
+    font-family: 'Anton', sans-serif;
+}
+
 
 /**************************************************/
 /* WRITE MOBILE STYLES AND GENERAL STYLES (fonts, colors etc.) HERE BEFORE THE FIRST BREAKPOINT */
